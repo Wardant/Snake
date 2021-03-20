@@ -20,9 +20,8 @@ void Game_info::menu(Screen &obj) {
 }
 
 void Game_info::check_char() {
-	/*this function converts all entered characters to uppercase,
-	 and ignores
-other characters other than the two N and Y characters.*/
+	/*эта функция переводит все введенные символы в верхний регистр, и игнорирует
+	другие символы кроме двух N и Y*/
 
 	do {
 		ch = _getch();

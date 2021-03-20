@@ -18,7 +18,7 @@ void Point::point_food(std::list<Point> &list) {
 		}
 	}
 
-	sym = (' ', 48); // סטלגמכ והû 
+	sym = (' ', 48); // food symbol
 }
 
 
